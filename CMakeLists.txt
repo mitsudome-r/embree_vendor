@@ -21,14 +21,15 @@ find_package(ament_cmake REQUIRED)
 macro(build_embree)
 
   set(cmake_commands)
-  set(cmake_configure_args -Wno-dev)
-  set(cmake_configure_args -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_install)
-  set(cmake_configure_args -DEMBREE_ISPC_SUPPORT=OFF)
+  set(cmake_configure_args
+    -Wno-dev
+    -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_install
+    -DEMBREE_ISPC_SUPPORT=OFF)
 
   include(ExternalProject)
   externalproject_add(embree-ext
     GIT_REPOSITORY https://github.com/embree/embree.git
-    GIT_TAG 732ba86d6dc9ada12a3fb48b12a5672509dd70f7
+    GIT_TAG master
     TIMEOUT 6000
     ${cmake_commands}
     CMAKE_ARGS
