@@ -17,3 +17,4 @@ jobs:
           git_user: hakuturu583
           git_email: ms.kataoka@gmail.com
           release_repository_push_url: https://github.com/${{ github.repository }}-release.git
+          open_pr: true
