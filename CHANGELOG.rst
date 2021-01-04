@@ -2,6 +2,12 @@
 Changelog for package embree_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* update LICENSE
+* add ignore
+* Contributors: Masaya Kataoka
+
 0.0.4 (2021-01-03)
 ------------------
 * update release workflow
