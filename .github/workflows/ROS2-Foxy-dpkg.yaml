@@ -1,9 +1,10 @@
 name: ROS2-Foxy-dpkg
 
 on:
-  schedule:
-  - cron: 0 0 * * *
-  push:
+  pull_request:
+    branches:
+      - master
+    types: [closed]
 
 jobs:
     job1:
