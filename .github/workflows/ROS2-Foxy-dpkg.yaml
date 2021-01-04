@@ -1,4 +1,4 @@
-name: ROS2-Foxy
+name: ROS2-Foxy-dpkg
 
 on:
   schedule:
@@ -46,7 +46,7 @@ jobs:
                   fakeroot debian/rules binary
                   cd ~/ros2_ws/src/
                   mv *.deb ros-foxy-embree_vendor-foxy_amd64.deb
-            - name: save dist
+            - name: Upload artifact
               uses: actions/upload-artifact@v2
               with:
                 name: ros-foxy-embree_vendor-foxy_amd64.deb
