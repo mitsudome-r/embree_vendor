@@ -48,7 +48,6 @@ jobs:
                   mv *.deb ros-foxy-embree_vendor-foxy_amd64.deb
             - name: save dist
               uses: actions/upload-artifact@v2
-              if: !failure()
               with:
                 name: ros-foxy-embree_vendor-foxy_amd64.deb
                 path: ~/ros2_ws/src/ros-foxy-embree_vendor-foxy_amd64.deb
