@@ -2,6 +2,17 @@
 Changelog for package embree_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge pull request `#1 <https://github.com/OUXT-Polaris/embree_vendor/issues/1>`_ from OUXT-Polaris/feature/add_tbb_to_depends
+  update package.xml
+* update package.xml
+* update workflow
+* rename workflow
+* fix workflow
+* add generate foxy dpkg workflow
+* Contributors: Masaya Kataoka
+
 0.0.5 (2021-01-04)
 ------------------
 * update LICENSE
