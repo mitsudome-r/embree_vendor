@@ -2,6 +2,19 @@
 Changelog for package embree_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* remove test lines
+* Merge pull request `#3 <https://github.com/OUXT-Polaris/embree_vendor/issues/3>`_ from OUXT-Polaris/workflow/galactic
+  update CI workflow for galactic
+* update .github/workflows/ROS2-Galactic.yaml
+* Merge pull request `#2 <https://github.com/OUXT-Polaris/embree_vendor/issues/2>`_ from OUXT-Polaris/workflow/foxy
+  update CI workflow for foxy
+* update .github/workflows/ROS2-Foxy.yaml
+* update dependency.repos
+* add workflow_dispatch trigger
+* Contributors: Masaya Kataoka, robotx_buildfarm
+
 0.0.6 (2021-01-10)
 ------------------
 * Merge pull request `#1 <https://github.com/OUXT-Polaris/embree_vendor/issues/1>`_ from OUXT-Polaris/feature/add_tbb_to_depends
