@@ -2,8 +2,8 @@
 Changelog for package embree_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.8 (2021-07-12)
+------------------
 * fix embree version
 * Contributors: Masaya Kataoka
 
