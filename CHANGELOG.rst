@@ -2,8 +2,8 @@
 Changelog for package embree_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.7 (2021-07-12)
+------------------
 * remove test lines
 * Merge pull request `#3 <https://github.com/OUXT-Polaris/embree_vendor/issues/3>`_ from OUXT-Polaris/workflow/galactic
   update CI workflow for galactic
