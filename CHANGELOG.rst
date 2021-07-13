@@ -2,8 +2,8 @@
 Changelog for package embree_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.8.1 (2021-07-13)
+------------------
 * add pkg-config to the depends
 * Contributors: Masaya Kataoka
 
