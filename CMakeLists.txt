@@ -63,9 +63,8 @@ macro(build_tbb)
   )
 endmacro(build_tbb)
 
-
-build_embree()
 build_tbb()
+build_embree()
 
 ament_export_include_directories(include)
 ament_export_libraries(embree3)
