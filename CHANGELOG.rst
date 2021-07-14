@@ -5,6 +5,17 @@ Changelog for package embree_vendor
 0.0.9 (2021-07-13)
 ------------------
 
+Forthcoming
+-----------
+* Merge branch 'master' of https://github.com/OUXT-Polaris/embree_vendor
+* Merge pull request `#4 <https://github.com/OUXT-Polaris/embree_vendor/issues/4>`_ from OUXT-Polaris/feature/onetbb_src
+  Feature/onetbb src
+* change build order
+* remove unused action
+* add tbb build command
+* fix version
+* Contributors: Masaya Kataoka
+
 0.8.1 (2021-07-13)
 ------------------
 * add pkg-config to the depends
