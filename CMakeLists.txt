@@ -29,7 +29,7 @@ macro(build_embree)
   include(ExternalProject)
   externalproject_add(embree-ext
     GIT_REPOSITORY https://github.com/embree/embree.git
-    GIT_TAG v3.8.0
+    GIT_TAG v3.13.0
     TIMEOUT 6000
     ${cmake_commands}
     CMAKE_ARGS
@@ -45,6 +45,25 @@ macro(build_embree)
   )
 endmacro()
 
+macro(build_tbb)
+
+  set(cmake_commands)
+  set(cmake_configure_args
+    -Wno-dev
+    -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_install)
+
+  include(ExternalProject)
+  externalproject_add(tbb-ext
+    GIT_REPOSITORY https://github.com/oneapi-src/oneTBB.git
+    GIT_TAG v2021.3.0
+    TIMEOUT 6000
+    ${cmake_commands}
+    CMAKE_ARGS
+      ${cmake_configure_args}
+  )
+endmacro(build_tbb)
+
+build_tbb()
 build_embree()
 
 ament_export_include_directories(include)
