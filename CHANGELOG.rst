@@ -5,8 +5,8 @@ Changelog for package embree_vendor
 0.0.9 (2021-07-13)
 ------------------
 
-Forthcoming
------------
+0.1.0 (2021-07-14)
+------------------
 * Merge branch 'master' of https://github.com/OUXT-Polaris/embree_vendor
 * Merge pull request `#4 <https://github.com/OUXT-Polaris/embree_vendor/issues/4>`_ from OUXT-Polaris/feature/onetbb_src
   Feature/onetbb src
