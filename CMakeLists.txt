@@ -45,26 +45,6 @@ macro(build_embree)
   )
 endmacro()
 
-macro(build_tbb)
-
-  set(cmake_commands)
-  set(cmake_configure_args
-    -Wno-dev
-    -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_install)
-
-  include(ExternalProject)
-  externalproject_add(tbb-ext
-    GIT_REPOSITORY https://github.com/oneapi-src/oneTBB.git
-    GIT_TAG v2021.10.0
-    TIMEOUT 6000
-    ${cmake_commands}
-    CMAKE_ARGS
-      ${cmake_configure_args}
-  )
-endmacro(build_tbb)
-
-set(TBB_ROOT ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_install)
-build_tbb()
 build_embree()
 
 ament_export_include_directories(include)
