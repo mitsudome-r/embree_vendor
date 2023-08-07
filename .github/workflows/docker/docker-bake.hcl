@@ -8,5 +8,5 @@ target "build" {
   args = {
     "ROS_DISTRO" : "humble"
   }
-  platforms = ["linux/amd64"]
+  platforms = ["linux/amd64", "linux/arm64/v8"]
 }
