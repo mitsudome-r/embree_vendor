@@ -61,8 +61,9 @@ macro(build_tbb)
     CMAKE_ARGS
       ${cmake_configure_args}
   )
-endmacro(build_tbb)
+endmacro(build_tbb ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_install)
 
+set(TBB_ROOT)
 build_tbb()
 build_embree()
 
