@@ -28,8 +28,8 @@ macro(build_embree)
 
   include(ExternalProject)
   externalproject_add(embree-ext
-    GIT_REPOSITORY https://github.com/embree/embree.git
-    GIT_TAG v4.2.0
+    GIT_REPOSITORY https://github.com/mitsudome-r/embree.git
+    GIT_TAG v3.13.5_arm
     TIMEOUT 6000
     ${cmake_commands}
     CMAKE_ARGS
